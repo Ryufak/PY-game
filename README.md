@@ -17,7 +17,7 @@ The (venv) contains all dependencies needed.
 
 * If the dependencies are not working correctly you could run this:     pip install -r requirements.txt
 
-
+* To deactivate the (venv) simply type "deactivate" in the Command Line
 
 
 
