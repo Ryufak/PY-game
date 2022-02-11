@@ -1,12 +1,21 @@
 # PY-game
 
+There is a Virtual Environment (venv) included in the source files.
+The (venv) contains all dependencies needed.
+
+1. Download the project and unzip it
+2. Unzip "venv.rar" in the project directory (you can delete the .rar file afterwards)
+3. Open the Command Prompt and use 'cd' to go to the directory of the project
+    (The path should look something like this:  C:\Users\username\Downloads\PY-game)
+4. Activate the (venv) using:   venv\scripts\activate.bat
+    (Now the path should look something like this:  (venv) C:\Users\username\Downloads\PY-game)
+5. Use pyinstaller to bundle the scripts into an executable:    pyinstaller --onefile main.py
+6. In the newly created "dist" folder you will have an executable file that you can test
 
 
 
 
-
-
-
+* If the dependencies are not working correctly you could run this:     pip install -r requirements.txt
 
 
 
